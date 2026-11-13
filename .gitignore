@@ -1,0 +1,33 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python temporary files
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/secrets.toml
+
+# macOS
+.DS_Store
+
+# Original research datasets and media
+crema_videos/
+crema_frames/
+images/
+data/
+finishedResponses.csv
+
+# Private participant responses
+mindmirror_results*.csv
+
+# Model checkpoints and downloaded weights
+*.pt
+*.pth
+*.safetensors
+*.h5
+
+# Temporary files
+*.log
+.ipynb_checkpoints/
+archive_old_experiments/
